@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aplikasi Gaming',
+      title: 'BELAJAR FLLUTTER',
       debugShowCheckedModeBanner: false,
       home: const MyHomePage(),
     );
@@ -26,9 +26,9 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 35, 55, 100),
+        backgroundColor: const Color.fromARGB(255, 179, 53, 126),
         leading: const Icon(Icons.sports_esports),
-        title: const Text('Gaming Zone'),
+        title: const Text('TAMAN BERMAIN'),
         actions: [
           const Icon(Icons.home),
           const Icon(Icons.games),
@@ -43,7 +43,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          'WELCOME GAMERS!',
+          'HALO GW ANOMM!',
           style: TextStyle(fontSize: 24),
         ),
       ),
