@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
       title: 'Belajar',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: const Color.fromARGB(66, 92, 6, 190),
+        backgroundColor: Colors.cyan,
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 120, 23, 23),
+          backgroundColor: Colors.orange,
           title: const Text('ABAOUT ME'),
           leading: const Icon(Icons.home),
           actions: [
