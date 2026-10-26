@@ -24,14 +24,14 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 130, 205, 44),
+      backgroundColor: const Color.fromARGB(255, 43, 77, 5),
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 51, 168, 207),
+        backgroundColor: const Color.fromARGB(255, 141, 198, 216),
         leading: const Icon(Icons.sports_esports),
         title: const Text('TAMAN BERMAIN'),
         actions: [
           const Icon(Icons.home),
-          const Icon(Icons.games),
+          const Icon(Icons.access_alarm_outlined),
           const Icon(Icons.abc_outlined),
 
           IconButton(
